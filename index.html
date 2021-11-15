@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <picture>
+                <source srcset=" ./images/logo-des-1x.png 1x, ./images/logo-des-2x.png 2x" media="(min-width: 1200px)"/>
+                <source srcset="./images/logo-tab-1x.png 1x, ./images/logo-tab-2x.png 2x" media="(min-width: 768px)"/>
+                <source srcset="./images/logo-mob-1x.png 1x, ./images/logo-mob-2x.png 2x" media="(min-width: 480px)"/>
+                <img src="./images/logo-des-1x.png" alt="логотип мороженное" width="199px" height="50px">
+            </picture>
+            <button class="menu__button_open js-open-menu" aria-expanded="false" aria-controls="menu">
+                <svg width="20" height="12">
+                    <use  href="./images/sprite.svg#icon-Burger"></use>
+                </svg>
+            </button>
+        <nav class="heder-list">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">How it’s made?</a></li>
+                <li><a href="">Our products</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="button header__button">
+            <svg width="5" height="8">
+                <use href=""></use>
+            </svg>
+            Buy now
+        </button>
+            </div>
+            <div class="menu js-menu" id="menu">
+                <div class="menu__container">
+                <button type="button" class="button menu__button">
+                    <svg width="5" height="8">
+                        <use href=""></use>
+                    </svg>
+                    Buy now
+                </button>
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="">Home</a></li>
+                    <li class="menu__item"><a href="">About us</a></li>
+                    <li class="menu__item"><a href="">How it’s made?</a></li>
+                    <li class="menu__item"><a href="">Our products</a></li>
+                    <li class="menu__item"><a href="">Contact</a></li>
+                </ul>
+                </div>
+                <button class="menu__button_close js-close-menu">
+                    <svg width="14" height="14">
+                        <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+    </header>
+    <main>
+        <hero>
+            <section>
+                <div>
+                    <h1>ice cream made with <span>passion</span></h1>
+                    <button type="button" class="button">Products</button>
+                    <button type="button" class="button">How it’s made?</button>
+                    <div>
+                        <img src="" alt="" width="" height=""> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                    </div>
+                    <button type="button">
+                        <svg width="" height="">
+                             <use href=""></use>
+                            </svg>
+                        </button>
+                        <img src="" alt="" width="" height="">
+                        <img src="" alt="" width="" height="">
+                        <img src="" alt="" width="" height="">
+                        <img src="" alt="" width="" height="">
+                </div>
+            </section>
+        </hero>
+    </main>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" 
+    crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
+</body>
+</html>
