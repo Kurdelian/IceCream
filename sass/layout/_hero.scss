@@ -1,0 +1,174 @@
+.hero__container {
+    height: 440px;
+    position: relative;
+    background-color: #FFB8CA;
+    padding-top: 27px;
+    @media screen and (min-width: 768px) {
+        height: 300px;
+        padding-top: 30px;
+        padding-right: 34px;
+        padding-left: 34px;
+    }
+    @media screen and (min-width: 1200px) {
+        height: 768px;
+        padding-top: 85px;
+        padding-right: 115px
+    }
+}
+
+.mobile-hero {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.mobile-hero__ellipse {
+    padding-left: 36px;
+    overflow: hidden;
+}
+
+.hero {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+#circle {
+    height: 344px;
+    width: 346px;
+    border-radius: 50%;
+    background-color: var( --title-text-color);
+    @media screen and (min-width: 767px) {
+        height: 322px;
+        width: 324px 
+    }
+    @media screen and (min-width: 1200px) {
+        height: 538px;
+        width: 538px 
+    }
+  }
+
+.hero__title {
+    width: 218px;
+    font-family: Titan One, sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.hero__title_part {
+color: var(--accent-color);
+}
+
+.mobile-hero__button {
+    min-width: 62.4px;
+    min-height: 24px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 1.25;
+}
+
+.mobile-hero__button_red {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.mobile-hero__box {
+    position: absolute;
+    z-index: 3;
+    left: 5%;
+    top: 58%;
+}
+
+.mobile-hero__picture {
+    position: absolute;
+    width: 171px;
+    height: 410px;
+    top: 8%;
+    right: 10%;
+    z-index: 2;
+}
+
+.mobile-hero__title {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 3;
+}
+
+.hero__button_arrow {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 88%;
+    left: 20%;
+}
+
+.hero__text {
+    width: 114px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.5;
+    color: var(--primary-white-color);
+    position: absolute;
+    top: 67%;
+    left: 22%;
+}
+
+.hero__ellipse {
+    position: absolute;
+    top: -16%;
+    left: 41%;
+}
+
+.hero__pictute_ice {
+    position: absolute;
+    width: 143px;
+    height: 336px;
+    top: -12%;
+    left: 50%;
+}
+
+.hero__pictute_girl {
+    position: absolute;
+    width: 168px;
+    height: 133px;
+    left: 75%;
+    top: 56%;
+}
+
+.hero__pictute_number {
+    position: absolute;
+    width: 43px;
+    height: 44px;
+    top: 2%;
+    left: 90%;
+}
+
+.hero__pictute_number-two {
+    position: absolute;
+    width: 51px;
+    height: 43px;   
+    top: 20%;
+    left: 89%; 
+}
+
+.hero-title_size {
+    position: absolute;
+    top: 3%;
+}
+
+.hero-box {
+    position: absolute;
+    top: 40%;
+}
+
+.hero__pictute_milK {
+    position: absolute;
+    width: 124px;
+    height: 126px;   
+    top: 55%;
+}

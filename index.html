@@ -13,79 +13,114 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="container header__container">
             <picture>
                 <source srcset=" ./images/logo-des-1x.png 1x, ./images/logo-des-2x.png 2x" media="(min-width: 1200px)"/>
                 <source srcset="./images/logo-tab-1x.png 1x, ./images/logo-tab-2x.png 2x" media="(min-width: 768px)"/>
                 <source srcset="./images/logo-mob-1x.png 1x, ./images/logo-mob-2x.png 2x" media="(min-width: 480px)"/>
                 <img src="./images/logo-des-1x.png" alt="логотип мороженное" width="199px" height="50px">
             </picture>
+            <div class="header__box">
             <button class="menu__button_open js-open-menu" aria-expanded="false" aria-controls="menu">
                 <svg width="20" height="12">
                     <use  href="./images/sprite.svg#icon-Burger"></use>
                 </svg>
             </button>
-        <nav class="heder-list">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">How it’s made?</a></li>
-                <li><a href="">Our products</a></li>
-                <li><a href="">Contact</a></li>
+            <ul class="header-list">
+                <li class="header__item"><a href="" class="menu__link current">Home</a></li>
+                <li class="header__item"><a href="" class="menu__link">About us</a></li>
+                <li class="header__item"><a href="" class="menu__link">How it’s made?</a></li>
+                <li class="header__item"><a href="" class="menu__link">Our products</a></li>
+                <li class="header__item"><a href="" class="menu__link">Contact</a></li>
             </ul>
-        </nav>
         <button type="button" class="button header__button">
-            <svg width="5" height="8">
-                <use href=""></use>
-            </svg>
             Buy now
+            <svg width="5.26" height="8">
+                <use href="./images/sprite.svg#icon-farther"></use>
+            </svg>
         </button>
-            </div>
+    </div>
             <div class="menu js-menu" id="menu">
                 <button class="menu__button_close js-close-menu">
                     <svg width="14" height="14">
                         <use href="./images/sprite.svg#icon-close"></use>
                     </svg>
                 </button>
-                <div class="menu__container">
+                <div class="menu__box">
                 <button type="button" class="button menu__button"> Buy now
                     <svg width="5.26" height="8">
                         <use href="./images/sprite.svg#icon-farther"></use>
                     </svg>
                 </button>
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="">Home</a></li>
-                    <li class="menu__item"><a href="">About us</a></li>
-                    <li class="menu__item"><a href="">How it’s made?</a></li>
-                    <li class="menu__item"><a href="">Our products</a></li>
-                    <li class="menu__item"><a href="">Contact</a></li>
+                    <li class="menu__item"><a href="" class="menu__link current">Home</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">About us</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">How it’s made?</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Our products</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
                 </ul>
                 </div>
             </div>
+        </div>
     </header>
     <main>
-        <hero>
-            <section>
-                <div>
-                    <h1>ice cream made with <span>passion</span></h1>
-                    <button type="button" class="button">Products</button>
-                    <button type="button" class="button">How it’s made?</button>
-                    <div>
-                        <img src="" alt="" width="" height=""> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                    </div>
-                    <button type="button">
-                        <svg width="" height="">
-                             <use href=""></use>
-                            </svg>
-                        </button>
-                        <img src="" alt="" width="" height="">
-                        <img src="" alt="" width="" height="">
-                        <img src="" alt="" width="" height="">
-                        <img src="" alt="" width="" height="">
+        <section>
+            <div class="container hero__container">
+                <div class="hero">
+                <h1 class="hero__title hero-title_size">ice cream made with <span class="hero__title_part">passion</span></h1>
+                <div class="hero-box">
+                <button type="button" class="button mobile-hero__button mobile-hero__button_red">Products</button>
+                <button type="button" class="button mobile-hero__button">How it’s made?</button>
+            </div>
+                <picture class="hero__pictute_milK">
+                    <source srcset=" ./images/milk-des-1x.png 1x, ./images/milk-des-2x.png 2x" media="(min-width: 1200px)"/>
+                    <source srcset="./images/milk-tab-1x.png 1x, ./images/milk-tab-2x.png 2x" media="(min-width: 768px)"/>
+                    <img src="./images/milk-des-1x.png" alt="молоко в стакане" width="188px" height="191px">
+                </picture>
+                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <button class="hero__button_arrow">
+                    <img src="./images/arrow-right .png" width="18px" height="18px">
+                </button>
+            <div class="hero__ellipse">
+                <div id="circle"></div>
+            </div>
+                <picture class="hero__pictute_ice">
+                    <source srcset=" ./images/ice-des-1x.png 1x, ./images/ice-des-2x.png 2x" media="(min-width: 1200px)"/>
+                    <source srcset="./images/ice-tab-1x.png 1x, ./images/ice-tab-2x.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="./images/ice-mob-1x.png 1x, ./images/ice-mob-2x.png 2x" media="(min-width: 480px)"/>
+                    <img src="./images/ice-des-1x.png" alt="мороженное" width="236px" height="557px">
+                </picture>
+                <picture class="hero__pictute_girl">
+                    <source srcset=" ./images/girl-des-1x.png 1x, ./images/girl-des-2x.png 2x" media="(min-width: 1200px)"/>
+                    <source srcset="./images/girl-tab-1x.png 1x, ./images/girl-tab-2x.png 2x" media="(min-width: 768px)"/>
+                    <img src="./girl-des-1x.png" alt="девушка ест мороженное" width="293px" height="232px">
+                </picture>
+                <picture class="hero__pictute_number">
+                    <source srcset=" ./images/number16-des-1x.png 1x, ./images/number16-des-2x.png 2x" media="(min-width: 1200px)"/>
+                    <source srcset="./images/number16-tab-1x.png 1x, ./images/number16-tab-2x.png 2x" media="(min-width: 768px)"/>
+                    <img src=".images/number16-des-1x.png" alt="xbckj 16" width="293px" height="232px">
+                </picture>
+                <picture class="hero__pictute_number-two">
+                    <source srcset=" ./images/number23-des-1x.png 1x, ./images/number23-des-2x.png 2x" media="(min-width: 1200px)"/>
+                    <source srcset="./images/number23-tab-1x.png 1x, ./images/number23-tab-2x.png 2x" media="(min-width: 768px)"/>
+                    <img src=".images/number23-des-1x.png" alt="xbckj 16" width="293px" height="232px">
+                </picture>
+            </div>
+            <div class="mobile-hero">
+                <picture class="mobile-hero__picture">
+                    <source srcset="./images/ice-mob-1x.png 1x, ./images/ice-mob-2x.png 2x" media="(min-width: 480px)"/>
+                    <img src="./images/ice-des-1x.png" alt="мороженное" width="236px" height="557px">
+                </picture>
+                <h1 class="mobile-hero__title hero__title">ice cream made with <span class="hero__title hero__title_part">passion</span></h1>
+                <div  class="mobile-hero__ellipse">
+                    <div id="circle"></div>   
                 </div>
-            </section>
-        </hero>
+                <div class="mobile-hero__box">
+                <button type="button" class="button mobile-hero__button mobile-hero__button_red">Products</button>
+                <button type="button" class="button mobile-hero__button">How it’s made?</button>
+            </div>
+            </div>
+            </div>
     </main>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" 
     crossorigin="anonymous"></script>
