@@ -64,7 +64,6 @@
         </div>
     </header>
     <main>
-        <section>
             <div class="container hero__container">
                 <div class="hero">
                 <h1 class="hero__title hero-title_size">ice cream made with <span class="hero__title_part">passion</span></h1>
@@ -79,7 +78,11 @@
                 </picture>
                 <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
                 <button class="hero__button_arrow">
-                    <img src="./images/arrow-right .png" width="18px" height="18px">
+                    <picture>
+                        <source srcset=" ./images/arrow-right-26px.png 1x, ./images/arrow-right-26px-2x.png 2x" media="(min-width: 1200px)"/>
+                        <source srcset="./images/arrow-right-18px.png 1x, ./images/arrow-right-18px-2x.png 2x" media="(min-width: 768px)"/>
+                        <img src="./images/arrow-right-26px.png" alt="стрелка" width="18px" height="18px">
+                    </picture>
                 </button>
             <div class="hero__ellipse">
                 <div id="circle"></div>
@@ -121,6 +124,94 @@
             </div>
             </div>
             </div>
+               <div  class="container products__container">
+                   <h2 class="products__title">100% natural <br>
+                    <span class="products__title_part">products</span></h2>
+                   <ul class="products__list">
+                       <li class="products__item products__item_pink">
+                        <picture class="products__picture">
+                            <source srcset=" ./images/productsice-des-1x.png 1x, ./images/productsice-des-2x.png 2x" media="(min-width: 1200px)"/>
+                            <source srcset="./images/productsice-tab-1x.png 1x, ./images/productsice-tab-2x.png 2x" media="(min-width: 768px)"/>
+                            <source srcset="./images/productsice-mob-1x.png 1x, ./images/productsice-mob-2x.png 2x" media="(min-width: 480px)"/>
+                            <img src="./images/productsice-des-1x.png" alt="логотип мороженное" width="249px" height="252px">
+                        </picture>
+                        <h3 class="products__title_deskription">ice cream</h3>
+                        <div class="products__tumb">
+                        <div class="products__tumb_part" id="ellipse"></div>
+                        <div class="products__tumb_part" id="ellipse"></div>
+                        <div class="products__tumb_part" id="ellipse"></div>
+                    </div>
+                        <p class="products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+                        <button class="products__button">
+                            <picture>
+                                <source srcset=" ./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 1200px)"/>
+                                <source srcset="./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 768px)"/>
+                                <source srcset="./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 480px)"/>
+                                <img src="./images/arrow-right-40px.png" alt="стрелка" width="40px" height="40px">
+                            </picture>
+                        </button>
+                       </li>
+                       <li class="products__item products__item_hell">
+                        <picture class="products__picture">
+                            <source srcset=" ./images/productglas-des-1x.png 1x, ./images/productglas-des-2x.png 2x" media="(min-width: 1200px)"/>
+                            <source srcset="./images/productglas-tab-1x.png 1x, ./images/productglas-tab-2x.png 2x" media="(min-width: 768px)"/>
+                            <source srcset="./images/productglas-mob-1x.png 1x, ./images/productglas-mob-2x.png 2x" media="(min-width: 480px)"/>
+                            <img src="./images/productglas-des-1x.png" alt="логотип мороженное" width="249px" height="252px">
+                        </picture> 
+                        <h3 class="products__title_deskription">ice coffee</h3>
+                        <div class="products__tumb">
+                        <div class="products__tumb_part" id="ellipse"></div>
+                        <div class="products__tumb_part" id="ellipse"></div>
+                        <div class="products__tumb_part" id="ellipse"></div>
+                    </div>
+                        <p class="products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+                        <button class="products__button">
+                            <picture>
+                                <source srcset=" ./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 1200px)"/>
+                                <source srcset="./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 768px)"/>
+                                <source srcset="./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 480px)"/>
+                                <img src="./images/arrow-right-40px.png" alt="стрелка" width="40px" height="40px">
+                            </picture>
+                        </button>  
+                    </li>
+                    <li class="products__item products__item_green">
+                        <picture class="products__picture">
+                            <source srcset=" ./images/productshokos-des-1x.png 1x, ./images/productshokos-des-2x.png 2x" media="(min-width: 1200px)"/>
+                            <source srcset="./images/productshokos-tab-1x.png 1x, ./images/productshokos-tab-2x.png 2x" media="(min-width: 768px)"/>
+                            <source srcset="./images/productshokos-mob-1x.png 1x, ./images/productshokos-mob-2x.png 2x" media="(min-width: 480px)"/>
+                            <img src="./images/productshokos-des-1x.png" alt="логотип мороженное" width="249px" height="252px">
+                        </picture> 
+                        <h3 class="products__title_deskription">milkshakes</h3>
+                        <div class="products__tumb">
+                        <div class="products__tumb_part" id="ellipse"></div>
+                        <div class="products__tumb_part" id="ellipse"></div>
+                        <div class="products__tumb_part" id="ellipse"></div>
+                    </div>
+                        <p class="products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+                        <button class="products__button">
+                            <picture>
+                                <source srcset=" ./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 1200px)"/>
+                                <source srcset="./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 768px)"/>
+                                <source srcset="./images/arrow-right-40px.png 1x, ./images/arrow-right-40px-2x.png 2x" media="(min-width: 480px)"/>
+                                <img src="./images/arrow-right-40px.png" alt="стрелка" width="40px" height="40px">
+                            </picture>
+                        </button>     
+                    </li>
+                   </ul>
+               </div>
+               <div class="container">
+                   <h2 class="technologies__title products__title">tradition and love <br>
+                       <span class="products__title_part">how it’s made?</span></h2>
+                       <picture>
+                        <source srcset=" ./images/cow-des-1x.png 1x, ./images/cow-des-2x.png 2x" media="(min-width: 1200px)"/>
+                        <source srcset="./images/cow-tab-1x.png 1x, ./images/cow-tab-2x.png 2x" media="(min-width: 768px)"/>
+                        <source srcset="./images/cow-mob-1x.png 1x, ./images/cow-mob-2x.png 2x" media="(min-width: 480px)"/>
+                        <img src="./images/cow-des-1x.png" alt="корова и молоко" width="280px" height="279px">
+                    </picture>
+                    <p class="technologies__text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+                    <p class="technologies__text_part">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+Aliquam erat volutpat. Aenean accumsan.</p>
+               </div>
     </main>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" 
     crossorigin="anonymous"></script>
