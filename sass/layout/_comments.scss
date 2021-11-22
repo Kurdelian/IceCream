@@ -2,18 +2,18 @@
     padding-top: 154px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 170px;
+    padding-bottom: 170px;
     @media screen and (min-width: 768px) {
         padding-top: 279px;
         padding-left: 74px;
         padding-right: 74px;
-        margin-bottom: 119px;  
+        padding-bottom: 197px;  
     }
     @media screen and (min-width: 1200px) {
         padding-top: 382px;
         padding-left: 177px;
         padding-right: 177px;
-        margin-bottom: 132px;  
+        padding-bottom: 234px;  
     }
 }
 
@@ -152,7 +152,7 @@
 .comments__picture {
     position: relative;
     margin-bottom: 80px;
-    @media screen and (min-width: 767px) {
+    @media screen and (min-width: 768px) {
         height: 85px;
         margin-bottom: 40px;
         margin-top: 121px;
